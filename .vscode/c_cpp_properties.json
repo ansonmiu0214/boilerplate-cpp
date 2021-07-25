@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Default",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compilerPath": "/usr/bin/gcc",
+            "includePath": [
+                "/usr/include", // from standard library
+                "~/.conan/data/**", // from external packages
+                "${workspaceFolder}" // from project
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
