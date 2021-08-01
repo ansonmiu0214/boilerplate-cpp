@@ -1,7 +1,7 @@
 FROM silkeh/clang:12
 
 RUN apt-get update \
-  && apt-get install -y build-essential cmake gdb python3-pip software-properties-common
+  && apt-get install -y build-essential cmake gdb python3-pip software-properties-common valgrind
 
 # Setup Conan package manager
 RUN python3 -m pip install conan
