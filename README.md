@@ -18,6 +18,7 @@
 * ✅ CMake
 * ✅ Docker
 * ✅ GoogleTest
+* ✅ Valgrind
 * ✅ Conan package manager
 * ✅ VS Code
     * Header include paths
@@ -50,6 +51,9 @@ $ docker-compose run dev bash
 
 # Build and run tests
 dev@dev:/workarea $ make
+
+# Run Valgrind on tests
+dev@dev:/workarea $ make valgrind
 
 # Run the sample executable
 dev@dev:/workarea $ ./build/bin/calculator add 12 34
